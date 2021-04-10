@@ -3,8 +3,7 @@
   <head>
   <title>My Site</title>
     <link href="styles.css" rel="stylesheet">
-    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+    
 </head>
   <body>
     <main>
@@ -14,12 +13,28 @@
             <input type="password" id="pwd" name="password" ><br>
             <input type="submit" id="submit" name="submit" ><br>
       </main>
-      <div id = "message">
-          <h3> The password has a lowercase letter</h3>
+      <div id = "message_lower">
+          <h3> The password needs a lowercase letter</h3>
       </div>
-
+      <div id = "message_upper">
+        <h3> The password needs an uppercase letter</h3>
+    </div>
+    <div id = "message_number">
+        <h3> The password needs a number</h3>
+    </div>
+    <div id = "message_special">
+        <h3> The password needs a special character</h3>
+    </div>
+    <div id = "message_length">
+        <h3> The password needs to be at least 8 characters long</h3>
+    </div>
+    <br>
+    <div id = "suggestions">
+        <h2> Here are some password suggestions</h2>
+        
+    </div>
     <script src="password.js"></script>
+    
   </body>
    
-
 </html>

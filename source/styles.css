@@ -24,7 +24,23 @@ font-size: 40px;
     text-align: center;
 }   
 
-#message {
+#message_lower {
+    display: block;
+    
+  }
+  #message_upper {
+    display: block;
+    
+  }
+  #message_number {
+    display: block;
+    
+  }
+  #message_special {
+    display: block;
+    
+  }
+  #message_length {
     display: block;
     
   }
