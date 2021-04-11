@@ -1,7 +1,8 @@
 
  body {
     font-family: 'Dosis', sans-serif;
-    background-image: url(https://user-images.githubusercontent.com/50184924/114280673-40e64b80-99ef-11eb-8303-ca3a1a82d348.jpg) ;
+    background-image: url(https://user-images.githubusercontent.com/50184924/114290748-a3af0580-9a36-11eb-9d4e-6bdb3d3db7ca.png) ;
+    opacity: 0.75;
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
@@ -12,35 +13,49 @@
      
 h1 {
     
-color: #000001;
+color: #ffffff;
 font-family: 'Apple Chancery';
-    
+font-size: 350%;
+background-color: rgb(223, 130, 165);
 text-align: center;
+opacity: 1.25;
+
     
-font-size: 40px;
 
 }
 .container{
     text-align: center;
-}   
+}
+#password{
+    text-align: center;
+    opacity: 1.25;
+}
+
 
 #message_lower {
-    display: block;
+    display: none;
     
   }
   #message_upper {
-    display: block;
+    display: none;
     
   }
   #message_number {
-    display: block;
+    display: none;
     
   }
   #message_special {
-    display: block;
+    display: none;
     
   }
   #message_length {
-    display: block;
+    display: none;
     
+  }
+  #email_box{
+      display: none;
+  }
+
+  #linkshow{
+      display: none;
   }
