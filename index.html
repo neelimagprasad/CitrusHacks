@@ -7,65 +7,73 @@
 </head>
   <body>
     <main>
-        <h1> Passcurity  </h1>
+      <h1> Passcurity  </h1>
 
-    <div id = buttons style="text-align:center; top: 50%">
-        <button id="generator">Generate <br> Password</button>
-        <button id="checker">Check<br> Password</button>
-    </div>
+      <div id = buttons style="text-align:center; top: 50%">
+          <button id="generator">Generate <br> Password</button>
+          <button id="checker">Check<br> Password</button>
+      </div>
 
-    <div id = "home">
-        <button id='homeButton'>Home</button>
-    </div>
+      <div id = "home">
+          <button id='homeButton'>Home</button>
+      </div>
    
 
-    <div id = passwordChecker >
+      <div id = passwordChecker >
         <form id="password">
-            <label for="pswrd">Test out your password:</label><br>
-            <input type="password" id="pwd" name="password" ><br>
-            <input type="submit" id="submit" name="submit" value='Check'><br>
-            <br>
-      <div id = "msg">
-      <div id = "message_lower">
-          <h4> The password needs a lowercase letter</h4>
-      </div>
-      <div id = "message_upper">
-        <h4> The password needs an uppercase letter</h4>
-    </div>
-    <div id = "message_number">
-        <h4> The password needs a number</h4>
-    </div>
-    <div id = "message_special">
-        <h4> The password needs a special character</h4>
-    </div>
-    <div id = "message_length">
-        <h4>   The password needs to be at least 10 characters   </h4>
-    </div>
-    <div id = "message_good">
-        <h4>   Your password is strong!   </h4>
-    </div>
-</div>
-</div>
+          <label for="pswrd">Test out your password:</label><br>
+          <input type="password" id="pwd" name="password" ><br>
+          <input type="submit" id="submit" name="submit" value='Check'><br>
+        </form>
 
-<div id = passwordGenerator>
-    <input type="submit" id="generate" name="generate" value='Generate'><br>
-</div>
+        <div id = "msg">
+          <div id = "message_lower">
+            <h4> The password needs a lowercase letter</h4>
+          </div>
+
+          <div id = "message_upper">
+            <h4> The password needs an uppercase letter</h4>
+          </div>
+
+          <div id = "message_number">
+            <h4> The password needs a number</h4>
+          </div>
+
+          <div id = "message_special">
+            <h4> The password needs a special character</h4>
+          </div>
+
+          <div id = "message_length">
+            <h4>   The password needs to be at least 10 characters   </h4>
+          </div>
+
+          <div id = "message_good">
+            <h4>   Your password is strong!   </h4>
+          </div>
+        </div>
+    </div>
+
+    <div id = passwordGenerator>
+      <input type="submit" id="generate" name="generate" value='Generate'><br>
+    </div>
 
     <div id = "email_box">
         <h2> Here is a suggested strong password</h2>
     <p id="suggestions"></p>
     
     <form id="email">
-        <label for="email">Enter your email below to send yourself your new secure password:</label><br>
-        <input type="email" id="email" name="password" ><br>
-        <input type="submit" id="submit1" name="submit1" ><br>
+      <label for="email">Enter your email below to send yourself your new secure password:</label><br>
+      <input type="email" id="email" name="password" ><br>
+      <input type="submit" id="submit1" name="submit1" ><br>
+    </form>
+
     <div id = "linkshow">
-    <a href="mailto:hello@hello.com?subject=Email Subject&body=Contents of email" id = "send">email</a>
+      <a href="mailto:hello@hello.com?subject=Email Subject&body=Contents of email" id = "send">email</a>
     </div>
 
     <script src="password.js"></script>
     <script src="passwordGenerator.js"></script>
-</main>
-  </body>
-   
+  </main>
+</body>   
+
 </html>
