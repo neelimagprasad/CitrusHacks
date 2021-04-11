@@ -11,6 +11,7 @@ var special;
 var length;
 var submit = document.getElementById('submit');
 var newpass;
+
 /* Code for taking input from website */
 document.getElementById("submit").addEventListener("click", function(event){
     event.preventDefault();  
@@ -31,6 +32,8 @@ document.getElementById("submit").addEventListener("click", function(event){
         var alphabet = "abcdefghijklmnopqrstuvwxyz";
         var randletter = alphabet[Math.floor(Math.random() * alphabet.length)];
         newpass += randletter;
+        
+        
     }
     else{
         document.getElementById('message_lower').style.display= 'none';
@@ -74,7 +77,28 @@ document.getElementById("submit").addEventListener("click", function(event){
     else{
         document.getElementById('message_length').style.display= 'none';
     }
-    document.getElementById("suggestions").innerHTML = newpass;  
+    if(newpass != x){
+    document.getElementById("suggestions").innerHTML = newpass;
+    document.getElementById('email_box').style.display= 'block';
+    }
+    else{
+        document.getElementById('email_box').style.display= 'none';
+    }
+
+});
+document.getElementById("submit1").addEventListener("click", function(event){
+    event.preventDefault();  
+    document.getElementById('linkshow').style.display= 'block';    
+    var email = document.getElementById('email').value;
+    var string = "mailto:"+email+"?subject= Secure Password&body= Your new password is "+newpass;
+    console.log(email);
+    console.log(string);
+    var link = document.getElementById("send");
+    link.innerHTML = "email";
+    link.setAttribute('href', string);
+
+    
+
 
 });
 
