@@ -5,11 +5,16 @@ var submit = document.getElementById('generate');
 var newpass = '';
 
 /* Code for taking input from website */
+document.getElementById('homeButton').addEventListener("click", function(event){
+    location.reload();
+});
 document.getElementById('generater').addEventListener("click", function(event){
     event.preventDefault();
-    console.log("hello");
-    document.getElementById(generate).style.display = "block" ;
+    document.getElementById('passwordGenerator').style.display = "block" ;
+    document.getElementById('buttons').style.display = "none" ;
+
 });
+
 document.getElementById("generate").addEventListener("click", function(event){
     event.preventDefault();  
 

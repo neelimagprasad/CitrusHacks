@@ -11,6 +11,12 @@ var submit = document.getElementById('submit');
 var newpass;
 
 /* Code for taking input from website */
+document.getElementById('checker').addEventListener("click", function(event){
+    event.preventDefault();
+    document.getElementById('passwordChecker').style.display = "block" ;
+    document.getElementById('buttons').style.display = "none" ;
+
+});
 document.getElementById("submit").addEventListener("click", function(event){
     event.preventDefault();  
     x = document.getElementById('pwd').value;
