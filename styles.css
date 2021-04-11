@@ -1,13 +1,15 @@
 
  body {
-    font-family: 'Dosis', sans-serif;
-    background-image: url(https://user-images.githubusercontent.com/50184924/114290748-a3af0580-9a36-11eb-9d4e-6bdb3d3db7ca.png) ;
-    opacity: 0.75;
-    background-size: cover;
+    font-family: "Apple Chancery";
+    background-image: url(https://user-images.githubusercontent.com/50184924/114294298-7bcd9b00-9a52-11eb-8612-e54d6414145b.jpg) ;
+    background-size: auto;
     background-repeat: no-repeat;
     height: auto;
     min-width: 100%;
-  min-height: 100%;
+    min-height: 100%;
+    font-weight:bold;
+    font-size: 120%;
+
 
 }
 
@@ -18,6 +20,7 @@ h1 {
 color: #ffffff;
 font-family: 'Apple Chancery';
 font-size: 350%;
+font-weight:bold;
 background-color: rgb(223, 130, 165);
 text-align: center;
 opacity: 1.25;
@@ -31,6 +34,12 @@ opacity: 1.25;
 }
 #passwordGenerator {
   text-align:center;
+  margin-top: -20%;
+  display:none;
+}
+#passwordChecker {
+  text-align:center;
+  margin-top: -15%;
   display:none;
 }
 
@@ -61,6 +70,25 @@ opacity: 1.25;
     display: none;
     
   }
+  #message_good {
+    display: none;
+    
+  }
+  #msg{
+    
+
+    color: white;
+    
+    background-color:rgb(223, 130, 165);
+    display:inline-block;
+    background-size: 5%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+
+  }
   #email_box{
       text-align:center;
       display: none;
@@ -69,7 +97,7 @@ opacity: 1.25;
   #linkshow{
       display: none;
   }
-  #generater, #checker,#homeButton {
+  #generator, #checker,#homeButton, #generate {
     font-family: inherit;
     font-size: 2em;
     padding: 1em;
@@ -88,15 +116,28 @@ opacity: 1.25;
     
    }
    #buttons{
+    position: absolute;
     display: block;
     align-items: center;
-    margin-top: 20%;
+    margin-top: -2%;
+    margin-left: 27%;
     justify-content: center;
+    
    }
 
-   #home {
-     display:block;
-     justify-content:bottom;
+   #homeButton {
+    align-items: bottom;
+    display: flex;
+    
+   }
+   #generate {
+     margin-top: 10%;
+   }
+   #submit1,#submit{
+    background-color:rgb(223, 130, 165);
+    font-family: inherit;
+    color: white;
+    border-radius: 20px;
    }
 
    

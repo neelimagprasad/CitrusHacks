@@ -10,36 +10,41 @@
         <h1> Passcurity  </h1>
 
     <div id = buttons style="text-align:center; top: 50%">
-        <button id="generater">Generate</button>
-        <button id="checker">Check</button>
+        <button id="generator">Generate <br> Password</button>
+        <button id="checker">Check<br> Password</button>
     </div>
-    
+
     <div id = "home">
         <button id='homeButton'>Home</button>
     </div>
+   
 
     <div id = passwordChecker >
         <form id="password">
             <label for="pswrd">Test out your password:</label><br>
             <input type="password" id="pwd" name="password" ><br>
             <input type="submit" id="submit" name="submit" value='Check'><br>
-      
+            <br>
+      <div id = "msg">
       <div id = "message_lower">
-          <h3> The password needs a lowercase letter</h3>
+          <h4> The password needs a lowercase letter</h4>
       </div>
       <div id = "message_upper">
-        <h3> The password needs an uppercase letter</h3>
+        <h4> The password needs an uppercase letter</h4>
     </div>
     <div id = "message_number">
-        <h3> The password needs a number</h3>
+        <h4> The password needs a number</h4>
     </div>
     <div id = "message_special">
-        <h3> The password needs a special character</h3>
+        <h4> The password needs a special character</h4>
     </div>
     <div id = "message_length">
-        <h3> The password needs to be at least 10 characters long</h3>
+        <h4>   The password needs to be at least 10 characters   </h4>
     </div>
-    <br>
+    <div id = "message_good">
+        <h4>   Your password is strong!   </h4>
+    </div>
+</div>
 </div>
 
 <div id = passwordGenerator>

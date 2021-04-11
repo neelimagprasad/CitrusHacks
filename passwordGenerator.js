@@ -8,7 +8,7 @@ var newpass = '';
 document.getElementById('homeButton').addEventListener("click", function(event){
     location.reload();
 });
-document.getElementById('generater').addEventListener("click", function(event){
+document.getElementById('generator').addEventListener("click", function(event){
     event.preventDefault();
     document.getElementById('passwordGenerator').style.display = "block" ;
     document.getElementById('buttons').style.display = "none" ;
