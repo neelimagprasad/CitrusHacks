@@ -6,6 +6,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
+    min-width: 100%;
+  min-height: 100%;
 
 }
 
@@ -67,3 +69,32 @@ opacity: 1.25;
   #linkshow{
       display: none;
   }
+  #generater, #checker {
+    font-family: inherit;
+    font-size: 2em;
+    padding: 1em;
+    margin: 1em;
+
+    color: white;
+    
+    border-width: 0;
+    background-color:rgb(223, 130, 165);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+    
+   }
+   #buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 20%;
+    justify-content: center;
+    
+
+
+   }
+
+   

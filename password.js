@@ -61,11 +61,11 @@ document.getElementById("submit").addEventListener("click", function(event){
     else{
         document.getElementById('message_special').style.display= 'none';
     }
-    if(length < 8){
+    if(length < 10){
         document.getElementById('message_length').style.display= 'block';
         var chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*";
         
-        while (newpass.length < 8) {
+        while (newpass.length < 10) {
             newpass += chars[Math.floor(Math.random() * chars.length)];;
             
             }

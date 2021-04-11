@@ -5,6 +5,11 @@ var submit = document.getElementById('generate');
 var newpass = '';
 
 /* Code for taking input from website */
+document.getElementById('generater').addEventListener("click", function(event){
+    event.preventDefault();
+    console.log("hello");
+    document.getElementById(generate).style.display = "block" ;
+});
 document.getElementById("generate").addEventListener("click", function(event){
     event.preventDefault();  
 
