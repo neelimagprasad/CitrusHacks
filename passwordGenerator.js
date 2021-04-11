@@ -48,7 +48,7 @@ document.getElementById("generate").addEventListener("click", function(event){
 document.getElementById("submit1").addEventListener("click", function(event){
     event.preventDefault();  
     document.getElementById('linkshow').style.display= 'block';    
-    var email = document.getElementById('email').value;
+    var email = document.getElementById('email1').value;
     var string = "mailto:"+email+"?subject= Secure Password&body= Your new password is "+newpass;
     console.log(email);
     console.log(string);

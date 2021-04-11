@@ -97,7 +97,8 @@ document.getElementById("submit1").addEventListener("click", function(event){
     console.log(string);
     var link = document.getElementById("send");
     link.innerHTML = "email";
-    link.setAttribute('href', string);
+    link.setAttribute('href', "mailto:"+email+"?subject= Secure Password&body= Your new password is "+newpass);
 
 });
+
 

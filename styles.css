@@ -8,17 +8,15 @@
     min-height: 100%;
     font-weight:bold;
     font-size: 120%;
-}
+}     
 
-/* the above style changes the background to a light yellow*/
-     
 h1 {
-color: #ffffff;
-font-family: 'Apple Chancery';
-font-size: 350%;
-font-weight:bold;
-background-color: rgb(223, 130, 165);
-text-align: center;
+  color: #ffffff;
+  font-family: 'Apple Chancery';
+  font-size: 350%;
+  font-weight:bold;
+  background-color: rgb(223, 130, 165);
+  text-align: center;
 }
 
 .container{
@@ -29,106 +27,116 @@ text-align: center;
   text-align: center;
   display:none;
 }
+
 #passwordChecker {
   text-align: center;
   display:none;
 }
-
 
 #password{
     text-align: center;
     opacity: 1.25;
 }
 
-
 #message_lower {
-    display: none;
-    
-  }
-  #message_upper {
-    display: none;
-    
-  }
-  #message_number {
-    display: none;
-    
-  }
-  #message_special {
-    display: none;
-    
-  }
-  #message_length {
-    display: none;
-    
-  }
-  #message_good {
-    display: none;
-    
-  }
-  #msg{
-    
+    display: none;   
+}
 
-    color: white;
-    
-    background-color:rgb(223, 130, 165);
-    display:inline-block;
-    background-size: 5%;
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+#message_upper {
+    display: none;  
+}
 
-  }
-  #email_box{
-      text-align:center;
-      display: none;
-  }
+#message_number {
+    display: none; 
+}
 
-  #linkshow{
-      display: none;
-  }
-  #generator, #checker,#homeButton, #generate {
-    font-family: inherit;
-    font-size: 2em;
-    padding: 1em;
-    margin: 1em;
+#message_special {
+  display: none;  
+}
 
-    color: white;
-    
-    border-width: 0;
-    background-color:rgb(223, 130, 165);
-    border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    
-    
-   }
-   #buttons{
-    position: relative;
-    display: block;
-    justify-content: center;
-    text-align:center;
-    top:50%;
-    
-   }
+#message_length {
+    display: none; 
+}
 
-   #homeButton {
-    position:absolute;
-    bottom: 0px;
-    left: 0%;
-    display:block;
-   }
-   #generate {
-     margin-top: 10%;
-   }
-   #submit1,#submit{
-    background-color:rgb(223, 130, 165);
-    font-family: inherit;
-    color: white;
-    border-radius: 20px;
-   }
+#message_good {
+    display: none;
+    
+}
+#msg{
+  color: white;
+    
+  background-color:rgb(223, 130, 165);
+  display:inline-block;
+  background-size: 5%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#email_box {
+  text-align:center;
+  display: none;
+}
+
+#linkshow {
+  display: none;
+}
+
+#generator, #checker,#homeButton, #generate {
+  font-family: inherit;
+  font-size: 2em;
+  padding: 1em;
+  margin: 1em;
+  color: white;
+  border-width: 0;
+  background-color:rgb(223, 130, 165);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+#buttons {
+  position: relative;
+  display: block;
+  justify-content: center;
+  text-align:center;
+  top:50%;
+}
+
+#homeButton {
+  position:absolute;
+  bottom: 0%;
+  left: 0%;
+  display:block;
+}
+
+#generate {
+   margin-top: 10%;
+}
+
+#submit1,#submit{
+  background-color:rgb(223, 130, 165);
+  font-family: inherit;
+  color: white;
+  border-radius: 20px;
+}
+
+#suggestions {
+  
+  font-family: inherit;
+  border-radius: 20px;
+  display:inline-block;
+  font-weight: 900;
+  font-size: 140%;
+}
+
+#label{
+  font-family: inherit;
+  font-size: 140%;
+}
 
    
