@@ -12,7 +12,7 @@
             <label for="pswrd">Test out your password:</label><br>
             <input type="password" id="pwd" name="password" ><br>
             <input type="submit" id="submit" name="submit" ><br>
-      </main>
+      
       <div id = "message_lower">
           <h3> The password needs a lowercase letter</h3>
       </div>
@@ -29,14 +29,19 @@
         <h3> The password needs to be at least 8 characters long</h3>
     </div>
     <br>
-    
-    <h2> Here are some password suggestions</h2>
+    <div id = "email_box">
+        <h2> Here is a suggested strong password</h2>
     <p id="suggestions"></p>
-
-
-
-    <script src="password.js"></script>
     
+    <form id="email">
+        <label for="email">Enter your email below to send yourself your new secure password:</label><br>
+        <input type="email" id="email" name="password" ><br>
+        <input type="submit" id="submit1" name="submit1" ><br>
+    <div id = "linkshow">
+    <a href="mailto:hello@hello.com?subject=Email Subject&body=Contents of email" id = "send">email</a>
+    </div>
+    <script src="password.js"></script>
+</main>
   </body>
    
 </html>
