@@ -79,6 +79,14 @@ document.getElementById("submit").addEventListener("click", function(event){
     else{
         document.getElementById('message_length').style.display= 'none';
     }
+    if(lower == true && upper == true && number == true && special == true && length >7){
+        document.getElementById('message_good').style.display= 'block';
+
+    }
+    else{
+        document.getElementById('message_good').style.display= 'block';
+
+    }
     if(newpass != x){
     document.getElementById("suggestions").innerHTML = newpass;
     document.getElementById('email_box').style.display= 'block';
