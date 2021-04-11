@@ -19,13 +19,20 @@ font-size: 350%;
 background-color: rgb(223, 130, 165);
 text-align: center;
 opacity: 1.25;
-
-    
-
 }
+
 .container{
     text-align: center;
 }
+#passwordChecker {
+    display:none;
+}
+#passwordGenerator {
+  text-align:center;
+  display:none;
+}
+
+
 #password{
     text-align: center;
     opacity: 1.25;
@@ -53,6 +60,7 @@ opacity: 1.25;
     
   }
   #email_box{
+      text-align:center;
       display: none;
   }
 

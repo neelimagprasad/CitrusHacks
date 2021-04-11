@@ -8,10 +8,13 @@
   <body>
     <main>
         <h1> Passcurity  </h1>
+
+
+    <div id = passwordChecker>
         <form id="password">
             <label for="pswrd">Test out your password:</label><br>
             <input type="password" id="pwd" name="password" ><br>
-            <input type="submit" id="submit" name="submit" ><br>
+            <input type="submit" id="submit" name="submit" value='Check'><br>
       
       <div id = "message_lower">
           <h3> The password needs a lowercase letter</h3>
@@ -29,6 +32,12 @@
         <h3> The password needs to be at least 8 characters long</h3>
     </div>
     <br>
+</div>
+
+<div id = passwordGenerator>
+    <input type="submit" id="generate" name="generate" value='Generate'><br>
+</div>
+
     <div id = "email_box">
         <h2> Here is a suggested strong password</h2>
     <p id="suggestions"></p>
@@ -41,6 +50,7 @@
     <a href="mailto:hello@hello.com?subject=Email Subject&body=Contents of email" id = "send">email</a>
     </div>
     <script src="password.js"></script>
+    <script src="passwordGenerator.js"></script>
 </main>
   </body>
    

@@ -1,7 +1,5 @@
 
 /* Variable that holds current password to change via input from website */
-console.log("helloworld");
-
 var x = document.getElementById('pwd').value;
 var checker;
 var lower = false;
@@ -32,8 +30,6 @@ document.getElementById("submit").addEventListener("click", function(event){
         var alphabet = "abcdefghijklmnopqrstuvwxyz";
         var randletter = alphabet[Math.floor(Math.random() * alphabet.length)];
         newpass += randletter;
-        
-        
     }
     else{
         document.getElementById('message_lower').style.display= 'none';
@@ -96,9 +92,6 @@ document.getElementById("submit1").addEventListener("click", function(event){
     var link = document.getElementById("send");
     link.innerHTML = "email";
     link.setAttribute('href', string);
-
-    
-
 
 });
 
