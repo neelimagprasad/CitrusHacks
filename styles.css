@@ -1,4 +1,3 @@
-
  body {
     font-family: "Apple Chancery";
     background-image: url(https://user-images.githubusercontent.com/50184924/114294298-7bcd9b00-9a52-11eb-8612-e54d6414145b.jpg) ;
@@ -9,37 +8,29 @@
     min-height: 100%;
     font-weight:bold;
     font-size: 120%;
-
-
 }
 
 /* the above style changes the background to a light yellow*/
      
 h1 {
-    
 color: #ffffff;
 font-family: 'Apple Chancery';
 font-size: 350%;
 font-weight:bold;
 background-color: rgb(223, 130, 165);
 text-align: center;
-opacity: 1.25;
 }
 
 .container{
     text-align: center;
 }
-#passwordChecker {
-    display:none;
-}
 #passwordGenerator {
-  text-align:center;
-  margin-top: -20%;
+  margin-top:-10%;
+  text-align: center;
   display:none;
 }
 #passwordChecker {
-  text-align:center;
-  margin-top: -15%;
+  text-align: center;
   display:none;
 }
 
@@ -116,19 +107,19 @@ opacity: 1.25;
     
    }
    #buttons{
-    position: absolute;
+    position: relative;
     display: block;
-    align-items: center;
-    margin-top: -2%;
-    margin-left: 27%;
     justify-content: center;
+    text-align:center;
+    top:50%;
     
    }
 
    #homeButton {
-    align-items: bottom;
-    display: flex;
-    
+    position:absolute;
+    bottom: 0px;
+    left: 0%;
+    display:block;
    }
    #generate {
      margin-top: 10%;
